@@ -39,41 +39,20 @@
   }
 }
 .home_title {
+  position: static !important;
+  text-align: left !important;
   font-size: 3.2rem;
-  padding: 10px 20px;
-}
-@media (min-width: 768px) {
-  .home_title {
-    font-size: 3.6rem;
-  }
-}
-@media (min-width: 1024px) {
-  .home_title {
-    font-size: 4rem;
-  }
-}
-@media (min-width: 1280px) {
-  .home_title {
-    font-size: 4.4rem;
-  }
-}
-@media (min-width: 1414px) {
-  .home_title {
-    font-size: 4.8rem;
-  }
+  padding-bottom: 20px;
 }
 .home_title:nth-child(2) {
   color: lightblue;
 }
 .home_description {
-  padding: 20px;
+  padding: 5px;
 }
 .home_description:nth-child(1) {
   color: lightgreen;
 }
 .home_photo {
   margin: 20px auto;
-}
-.home_media {
-  margin-top: 30px;
 }/*# sourceMappingURL=home.css.map */
