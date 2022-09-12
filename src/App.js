@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <nav className="nav">
         <ul className="nav_list">
-            <li className="nav_item"><Link to='/' className="nav_link">About me</Link></li>
-            <li className="nav_item"><Link to='/projects' className="nav_link">Projects</Link></li>
-            <li className="nav_item"><Link to='/contact' className="nav_link">Contact</Link></li>
+            <li className="nav_item"><Link to='/' className="nav_link description">About me</Link></li>
+            <li className="nav_item"><Link to='/projects' className="nav_link description">Projects</Link></li>
+            <li className="nav_item"><Link to='/contact' className="nav_link description">Contact</Link></li>
         </ul>
       </nav>
       <Routes>
@@ -21,6 +21,7 @@ function App() {
           <Route path='/projects' element={<Projects/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
       </Routes>
+      <footer className="footer"><p className="description">Created by Kamil Linstedt © 2022</p></footer>
     </div>
   );
 }

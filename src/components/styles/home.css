@@ -2,12 +2,12 @@
   color: white;
 }
 .home_wrapper {
-  width: 70%;
+  width: 85%;
   max-width: 1600px;
 }
 @media (min-width: 768px) {
   .home_wrapper {
-    width: 60%;
+    width: 65%;
   }
 }
 @media (min-width: 1024px) {
@@ -41,8 +41,7 @@
 .home_title {
   position: static !important;
   text-align: left !important;
-  font-size: 3.2rem;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .home_title:nth-child(2) {
   color: lightblue;

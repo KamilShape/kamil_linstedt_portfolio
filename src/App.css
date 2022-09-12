@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
   font-size: 12px;
@@ -9,23 +10,22 @@
 .section {
   min-width: 375px;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 70px);
   min-height: 750px;
-  background: #181818;
+  background-color: rgba(24, 24, 24, 0.95);
 }
 
 .section_title {
   position: relative;
-  top: 5%;
-  font-size: 3.2rem;
+  top: 30px;
+  font-size: 2.6rem;
   text-transform: uppercase;
   text-align: center;
   padding: 10px 5px;
-  color: white;
 }
 @media (min-width: 768px) {
   .section_title {
-    font-size: 3.6rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 1024px) {
@@ -35,12 +35,12 @@
 }
 @media (min-width: 1280px) {
   .section_title {
-    font-size: 4.4rem;
+    font-size: 4.5rem;
   }
 }
 @media (min-width: 1414px) {
   .section_title {
-    font-size: 4.8rem;
+    font-size: 5rem;
   }
 }
 .section_title:nth-child(2) {
@@ -93,6 +93,8 @@
 }
 
 .nav_list {
+  z-index: 3;
+  background-color: rgb(24, 24, 24);
   position: fixed;
   display: flex;
   justify-content: space-evenly;
@@ -107,8 +109,34 @@
 }
 .nav_link {
   display: block;
-  color: white;
-  font-size: 2rem;
   text-decoration: none;
-  padding: 20px 10px;
+  padding: 10px 0;
+}
+
+.link_border {
+  background-color: white;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+@media (min-width: 768px) {
+  .link_border {
+    width: 100px;
+    height: 100px;
+  }
+}
+.link_icon {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+.footer {
+  text-align: center;
+  line-height: 70px;
+  height: 70px;
+  width: 100vw;
+  background-color: rgb(24, 24, 24);
 }/*# sourceMappingURL=App.css.map */

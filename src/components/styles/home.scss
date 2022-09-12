@@ -1,10 +1,10 @@
 .home {
     color: white;
     &_wrapper {
-        width: 70%;
+        width: 85%;
         max-width: 1600px;
         @media (min-width: 768px) {
-            width: 60%;
+            width: 65%;
         }
         @media (min-width: 1024px) {
             width: 75%;
@@ -30,8 +30,7 @@
     &_title {
         position: static !important;
         text-align: left !important;
-        font-size: 3.2rem;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         &:nth-child(2) {
             color: lightblue;
         }
