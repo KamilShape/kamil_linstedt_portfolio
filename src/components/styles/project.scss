@@ -1,0 +1,41 @@
+.project {
+    position: relative;
+    background-color: rgb(24, 24, 24);
+    border: 1px solid white;
+    margin: 20px;
+    padding: 20px;
+    width: 270px;
+    height: 270px;
+    border-radius: 30px;
+    @media (min-width: 1024px) {
+        width: 320px;
+        height: 320px
+    }
+    &_title {
+        position: absolute;
+        top: 40px;
+        font-size: 2rem;
+    }
+    &_description {
+        position: absolute;
+        top: 80px;
+        padding-right: 40px;
+    }
+    &_icon {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    &_links {
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+    }
+    &_link {
+        display: block;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+}

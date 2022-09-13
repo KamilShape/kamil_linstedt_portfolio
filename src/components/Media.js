@@ -4,13 +4,13 @@ import linkedin_logo from './images/linkedin_logo.png'
 
 
 
-function Home() {
+function Media() {
   return (
     <section className="media">
-      <div className="link_border"><img className='link_icon' src={github_logo}/></div>
-      <div className="link_border"><img className='link_icon' src={linkedin_logo} /></div>
+      <div className="icon_border"><img className='icon_image' src={github_logo}/></div>
+      <div className="icon_border"><img className='icon_image' src={linkedin_logo} /></div>
     </section>
   );
 }
 
-export default Home;
+export default Media;

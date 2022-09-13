@@ -5,6 +5,8 @@ import Contact from './components/Contact';
 import './App.css';
 import './components/styles/home.css';
 import './components/styles/media.css';
+import './components/styles/projects.css';
+import './components/styles/project.css';
 
 function App() {
   return (
