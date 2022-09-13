@@ -7,8 +7,8 @@ import linkedin_logo from './images/linkedin_logo.png'
 function Media() {
   return (
     <section className="media">
-      <div className="icon_border"><img className='icon_image' src={github_logo}/></div>
-      <div className="icon_border"><img className='icon_image' src={linkedin_logo} /></div>
+      <a href="https://github.com/KamilShape"><div className="icon_border"><img className='icon_image' src={github_logo}/></div></a>
+      <a href="https://www.linkedin.com/in/kamil-linstedt-506737201/"><div className="icon_border"><img className='icon_image' src={linkedin_logo} /></div></a>
     </section>
   );
 }

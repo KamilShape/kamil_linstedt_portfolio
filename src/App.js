@@ -7,6 +7,7 @@ import './components/styles/home.css';
 import './components/styles/media.css';
 import './components/styles/projects.css';
 import './components/styles/project.css';
+import './components/styles/contact.css';
 
 function App() {
   return (

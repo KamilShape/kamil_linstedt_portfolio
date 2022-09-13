@@ -1,4 +1,39 @@
 .contact_data {
   text-transform: uppercase;
+  width: 90%;
   font-size: 2rem;
+  margin: 50px auto 0;
+  text-align: center;
+  padding: 20px 0;
+}
+.contact_data:nth-child(4) {
+  padding-bottom: 150px;
+}
+@media (min-width: 1024px) {
+  .contact_data:nth-child(4) {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .contact_data {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .contact_data {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .contact_data {
+    font-size: 4rem;
+  }
+}
+.contact_title {
+  font-size: 5rem;
+}
+@media (min-width: 1024px) {
+  .contact_title {
+    font-size: 6rem;
+  }
 }/*# sourceMappingURL=contact.css.map */

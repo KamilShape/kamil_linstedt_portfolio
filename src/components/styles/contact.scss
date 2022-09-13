@@ -1,6 +1,31 @@
 .contact {
     &_data {
         text-transform: uppercase;
+        width: 90%;
         font-size: 2rem;
+        margin: 50px auto 0;
+        text-align: center;
+        padding: 20px 0;
+        &:nth-child(4) {
+            padding-bottom: 150px;
+            @media (min-width: 1024px) {
+                padding-bottom: 50px;
+            }
+        }
+        @media (min-width: 768px) {
+            font-size: 3rem;
+        }
+        @media (min-width: 1024px) {
+            font-size: 3.5rem;
+        }
+        @media (min-width: 1280px) {
+            font-size: 4rem;
+        }
+    }
+    &_title {
+        font-size: 5rem;
+        @media (min-width: 1024px) {
+            font-size: 6rem;
+        }
     }
 }
