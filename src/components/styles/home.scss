@@ -3,9 +3,6 @@
     &_wrapper {
         width: 85%;
         max-width: 1600px;
-        @media (min-width: 768px) {
-            width: 65%;
-        }
         @media (min-width: 1024px) {
             width: 75%;
             display: flex;
@@ -30,7 +27,7 @@
     &_title {
         position: static !important;
         text-align: left !important;
-        padding-bottom: 10px;
+        padding: 10px 0 10px 0;
         &:nth-child(2) {
             color: lightblue;
         }
@@ -43,5 +40,11 @@
     }
     &_photo {
         margin: 20px auto;
+        overflow: hidden;
+    }
+    &_portrait {
+        position: relative;
+        left: -50%;
+        width: 200%;
     }
 }

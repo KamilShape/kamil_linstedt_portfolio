@@ -34,7 +34,6 @@ function Projects() {
             </div>
             <p className="icon_title">vue</p>
           </div>
-          
         </div>
         <div className="projects_container">
             <Project/>

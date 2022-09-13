@@ -10,8 +10,14 @@
 }
 @media (min-width: 1024px) {
   .project {
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (min-width: 1280px) {
+  .project {
+    width: 350px;
+    height: 350px;
   }
 }
 .project_title {

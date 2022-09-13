@@ -56,15 +56,15 @@ svg {
 }
 
 .photo {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-color: white;
 }
 @media (min-width: 768px) {
   .photo {
-    width: 275px;
-    height: 275px;
+    width: 225px;
+    height: 225px;
   }
 }
 @media (min-width: 1024px) {
@@ -79,7 +79,7 @@ svg {
 }
 @media (min-width: 768px) {
   .description {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1024px) {
@@ -118,10 +118,16 @@ svg {
   background-color: white;
   margin: 0 auto;
   border-radius: 50%;
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
 }
 @media (min-width: 768px) {
+  .icon_border {
+    width: 75px;
+    height: 75px;
+  }
+}
+@media (min-width: 1024px) {
   .icon_border {
     width: 100px;
     height: 100px;
