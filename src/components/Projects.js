@@ -4,8 +4,18 @@ import javascript_logo from './images/javascript_logo.png'
 import css_logo from './images/css_logo.png'
 import react_logo from './images/react_logo.png'
 import vue_logo from './images/vue_logo.png'
+import data from './data.js'
 
 function Projects() {
+  const projects = data.map(project => {
+    return <Project 
+    key={project.name} 
+    title={project.title}
+    description={project.description}
+    link={project.link}
+    ghlink={project.ghlink}
+    />
+  })
   return (
     <section className="projects section">
         <h1 className="section_title">my projects</h1>
@@ -36,13 +46,9 @@ function Projects() {
           </div>
         </div>
         <div className="projects_container">
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
+        {projects}
           </div> 
+
         <Media/>
     </section>
   );

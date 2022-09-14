@@ -18,7 +18,13 @@
     &_title {
         position: absolute;
         top: 40px;
-        font-size: 2rem;
+        font-size: 1.6rem;
+        @media (min-width: 1024px) {
+            font-size: 1.8rem;
+        }
+        @media (min-width: 1280px) {
+            font-size: 2.2rem;
+        }
     }
     &_description {
         position: absolute;
@@ -40,6 +46,12 @@
     &_link {
         display: block;
         padding: 10px;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        @media (min-width: 1024px) {
+            font-size: 1.6rem;
+        }
+        @media (min-width: 1280px) {
+            font-size: 1.8rem;
+        }
     }
 }
