@@ -1,5 +1,8 @@
 .projects {
     height: 100% !important;
+    @media (min-height: 1300px) {
+        height: calc(100vh - 70px) !important;
+    }
     &_icons {
         width: 90%;
         display: flex;

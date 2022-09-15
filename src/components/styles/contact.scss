@@ -1,12 +1,15 @@
 .contact {
     &_data {
+        position: relative;
         text-transform: uppercase;
-        font-size: 2rem;
         text-align: center;
         padding: 5vh 0 0 0;
         &:nth-child(4) {
             padding-bottom: 10vh;
         }
+    }
+    &_paragraph {
+        font-size: 2rem;
         @media (min-width: 768px) {
             font-size: 3rem;
         }
@@ -25,11 +28,16 @@
             font-size: 6rem;
         }
     }
+    &_icon {
+        position: absolute;
+        top: 30px;
+        left: 70px;
+    }
     &_button {
         display: block;
         transition: 0.3s ease-in-out;
         width: 200px;
-        border-radius: 25px;
+        border-radius: 50px;
         text-align: center;
         background-color: lightblue;
         color: rgb(24, 24, 24, 0.95);

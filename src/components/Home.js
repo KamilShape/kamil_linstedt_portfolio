@@ -1,9 +1,15 @@
 import Media from './Media.js'
 import portrait from './images/portrait.png'
+import {motion} from 'framer-motion'
 
 function Home() {
   return (
-    <section className="home section">
+    <motion.section 
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    transition={{duration: 0.8}}
+    className="home section"
+    >
       <div className="home_wrapper wrapper">
         <div className="home_content">
           <p className="home_description description">Hello, my name is</p>
@@ -18,7 +24,7 @@ function Home() {
           <Media className='home_media'/>
         </div>        
       </div>
-    </section>
+    </motion.section>
   );
 }
 

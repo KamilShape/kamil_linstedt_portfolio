@@ -7,17 +7,22 @@
   font-size: 12px;
 }
 
+body {
+  background-color: rgba(24, 24, 24, 0.95);
+}
+
 svg {
+  top: 100px;
   display: block;
   fill: white;
+  width: 50px;
+  height: 50px;
 }
 
 .section {
   min-width: 375px;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   height: calc(100vh - 70px);
   min-height: 750px;
-  background-color: rgba(24, 24, 24, 0.95);
 }
 .section_title {
   font-size: 2.6rem;
@@ -157,6 +162,7 @@ svg {
   text-align: center;
   line-height: 70px;
   height: 70px;
+  min-width: 375px;
   width: 100vw;
   background-color: rgb(24, 24, 24);
 }/*# sourceMappingURL=App.css.map */

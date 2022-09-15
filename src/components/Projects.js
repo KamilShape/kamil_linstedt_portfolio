@@ -1,5 +1,6 @@
 import Media from './Media.js'
 import Project from './Project'
+import {motion} from 'framer-motion'
 import javascript_logo from './images/javascript_logo.png'
 import css_logo from './images/css_logo.png'
 import react_logo from './images/react_logo.png'
@@ -12,12 +13,17 @@ function Projects() {
     key={project.name} 
     title={project.title}
     description={project.description}
+    usage={project.usage}
     link={project.link}
     ghlink={project.ghlink}
     />
   })
   return (
-    <section className="projects section">
+    <motion.section 
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    transition={{duration: 0.8}}
+    className="projects section">
         <h1 className="section_title">my projects</h1>
         <div className="projects_icons">
           <div className="projects_wrapper">
@@ -48,9 +54,8 @@ function Projects() {
         <div className="projects_container">
         {projects}
           </div> 
-
         <Media/>
-    </section>
+    </motion.section>
   );
 }
 
