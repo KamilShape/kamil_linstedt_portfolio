@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/kamil_linstedt_portfolio/static/css/main.0290fdd7.css",
+    "main.js": "/kamil_linstedt_portfolio/static/js/main.3a6c34d2.js",
+    "static/media/portrait.png": "/kamil_linstedt_portfolio/static/media/portrait.4487b581b124797aac8c.png",
+    "static/media/resume.pdf": "/kamil_linstedt_portfolio/static/media/resume.48fa3ed5290b7b58c539.pdf",
+    "static/media/react_logo.png": "/kamil_linstedt_portfolio/static/media/react_logo.09df55c21bdb35711dd0.png",
+    "static/media/vue_logo.png": "/kamil_linstedt_portfolio/static/media/vue_logo.b3eb5e3c484454b1de5c.png",
+    "static/media/css_logo.png": "/kamil_linstedt_portfolio/static/media/css_logo.84de5dab5fab27f4161c.png",
+    "index.html": "/kamil_linstedt_portfolio/index.html",
+    "main.0290fdd7.css.map": "/kamil_linstedt_portfolio/static/css/main.0290fdd7.css.map",
+    "main.3a6c34d2.js.map": "/kamil_linstedt_portfolio/static/js/main.3a6c34d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0290fdd7.css",
+    "static/js/main.3a6c34d2.js"
+  ]
+}
