@@ -28,25 +28,25 @@ function Projects() {
         <div className="projects_icons">
           <div className="projects_wrapper">
             <div className="icon_border">
-              <img src={javascript_logo} className="icon_image" />
+              <img src={javascript_logo} alt="javascript_logo" className="icon_image" />
             </div>
             <p className="icon_title">javascript</p>
           </div>
           <div className="projects_wrapper">
             <div className="icon_border">
-              <img src={css_logo} className="icon_image" />
+              <img src={css_logo} alt="css_logo" className="icon_image" />
             </div>
             <p className="icon_title">css</p>
           </div>
           <div className="projects_wrapper">
             <div className="icon_border">
-              <img src={react_logo} className="icon_image" />
+              <img src={react_logo} alt="react_logo" className="icon_image" />
             </div>
             <p className="icon_title">react</p>
           </div>
           <div className="projects_wrapper">
             <div className="icon_border">
-              <img src={vue_logo} className="icon_image" />
+              <img src={vue_logo} alt="vue_logo" className="icon_image" />
             </div>
             <p className="icon_title">vue</p>
           </div>

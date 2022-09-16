@@ -1,9 +1,6 @@
-
-// import {TransitionGroup, CSSTransition} from "react-transition-group";
-
-import './App.css';
 import AppRoutes from './components/AppRoutes.js';
 import Nav from './components/Nav.js';
+import './App.css';
 import './components/styles/home.css';
 import './components/styles/media.css';
 import './components/styles/projects.css';
