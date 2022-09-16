@@ -2,7 +2,7 @@
 // import {TransitionGroup, CSSTransition} from "react-transition-group";
 
 import './App.css';
-import Routes from './components/AppRoutes.js';
+import AppRoutes from './components/AppRoutes.js';
 import Nav from './components/Nav.js';
 import './components/styles/home.css';
 import './components/styles/media.css';
@@ -14,8 +14,8 @@ function App() {
 
   return (
     <div className="App">
-      <Nav/>
-      <Routes/>
+        <Nav/>
+        <AppRoutes/>
       <footer className="footer"><p className="description">Created by Kamil Linstedt © 2022</p></footer>
     </div>
   );
